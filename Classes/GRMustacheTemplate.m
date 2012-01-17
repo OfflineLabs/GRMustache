@@ -202,6 +202,7 @@
 	return (object == nil ||
 			object == [NSNull null] ||
 			object == [GRNo no] ||
+            object == [NSNumber numberWithInt:0] ||     // SA: treating 0 as false
 			(void *)object == (void *)kCFBooleanFalse ||
 			([object isKindOfClass:[NSString class]] && ((NSString*)object).length == 0));
 }
