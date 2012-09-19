@@ -885,6 +885,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/GRMustache1.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				LIBRARY_SEARCH_PATHS = (
@@ -904,6 +905,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/GRMustache1.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				LIBRARY_SEARCH_PATHS = (
